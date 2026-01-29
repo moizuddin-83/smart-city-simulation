@@ -2,7 +2,7 @@
 
 A C++ based simulation that optimizes emergency response times in a smart city environment. This project utilizes graph theory and dynamic data structures to manage resources, calculate shortest paths, and handle real-time traffic updates.
 
-![City Graph](assets/city_graph_visual.png)
+![City Graph](docs/logic_diagram.png)
 
 ## 🚀 Key Features
 
