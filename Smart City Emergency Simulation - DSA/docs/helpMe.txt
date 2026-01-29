@@ -1,0 +1,51 @@
+================================================================================
+USER INPUT GUIDE & FORMATTING RULES
+================================================================================
+
+[CRITICAL RULE]
+When entering location names, you MUST replace all spaces with hyphens (-).
+
+Reason: The system reads inputs separated by spaces. If you type "Bus Stop 1", 
+the program treats "Bus", "Stop", and "1" as three separate inputs, which will 
+cause an error.
+
+--------------------------------------------------------------------------------
+CORRECT vs INCORRECT EXAMPLES
+--------------------------------------------------------------------------------
+
+(X) Incorrect        (O) Correct
+----------------     ----------------
+Bus Stop 1           bus-stop-1
+Police Station       police-station
+Town Hall            town-hall
+Fire Station         fire-station
+
+--------------------------------------------------------------------------------
+VALID LOCATIONS LIST
+--------------------------------------------------------------------------------
+Below is a list of valid location names defined in the city map. 
+Please copy these exactly when running the simulation:
+
+> Public Services:
+  - townhall
+  - court
+  - GHQ
+  - bank-1
+  - post-office
+
+> Emergency Services:
+  - hospital-1
+  - hospital-2
+  - fire-station
+  - police-station
+  - police-station-2
+
+> Public Transport & Housing:
+  - bus-stop-1
+  - bus-stop-2
+  - housing-1
+  - mall
+  - stadium
+  - school-1
+  - school-2
+  - mosque-2
