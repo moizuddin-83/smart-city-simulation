@@ -2,7 +2,7 @@
 
 A C++ based simulation that optimizes emergency response times in a smart city environment. This project utilizes graph theory and dynamic data structures to manage resources, calculate shortest paths, and handle real-time traffic updates.
 
-![City Graph](docs/logic_diagram.png)
+![Project Logic](docs/logic_diagram.PNG)
 
 ## 🚀 Key Features
 
@@ -23,17 +23,18 @@ The system represents the city as a graph where:
 * **Edges** = Roads with associated weights (Distance/Traffic).
 
 When an emergency occurs, the system:
-1.  Inserts the task into a **BST** based on priority (Fire > Robbery > Traffic).
-2.  Calculates the shortest path from the nearest responder using **Dijkstra's Algorithm**.
-3.  Adjusts for traffic delays if specified by the user.
+1. Inserts the task into a **BST** based on priority (Fire > Robbery > Traffic).
+2. Calculates the shortest path from the nearest responder using **Dijkstra's Algorithm**.
+3. Adjusts for traffic delays if specified by the user.
 
 ## 📂 Project Structure
 
 | File | Description |
 | :--- | :--- |
 | `src/main.cpp` | Core logic for Graph, BST, and Traffic systems. |
-| `src/map.txt` | Data file containing city topology (Nodes & Distances). |
-| `docs/input_guide.txt` | Guide on how to input location names correctly. |
+| `data/city_map.txt` | Data file containing city topology (Nodes & Distances). |
+| `docs/helpMe.txt` | Guide on how to input location names correctly. |
+| `docs/logic_diagram.PNG` | Visual representation of the project logic. |
 
 ## 👥 Authors
 
