@@ -33,7 +33,7 @@ When an emergency occurs, the system:
 | :--- | :--- |
 | `src/main.cpp` | Core logic for Graph, BST, and Traffic systems. |
 | `data/city_map.txt` | Data file containing city topology (Nodes & Distances). |
-| `docs/helpMe.txt` | Guide on how to input location names correctly. |
+| `docs/User_Input_Guide.txt` | Guide on how to input location names correctly. |
 | `docs/logic_diagram.PNG` | Visual representation of the project logic. |
 
 ## 👥 Authors
